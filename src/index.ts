@@ -29,7 +29,7 @@ const app = express()
 app.use(
     cors({
         credentials: true,
-        origin: ['http://localhost:5173', 'https://melly-fashion-server-2cbd2d9a542e.herokuapp.com'],
+        origin: ['http://localhost:5173', 'https://melly-fashion-server-2cbd2d9a542e.herokuapp.com', 'https://mellyfashion.netlify.app'],
     })
 )
 app.use(express.json())
